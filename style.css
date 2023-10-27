@@ -118,6 +118,11 @@ header h2 {
     display: inline-block;
     background-color: rgb(42, 42, 42);
     color: white;
+    transition: all 0.5s ease-in-out;
+}
+.project-1:hover {
+  background-color: white;
+  color: black;
 }
 
 .project-2 {
@@ -129,6 +134,11 @@ header h2 {
     display: inline-block;
     background-color: rgb(42, 42, 42);
     color: white;
+    transition: all 0.5s ease-in-out;
+}
+.project-2:hover {
+  background-color: white;
+  color: black;
 }
 
 .project-3 {
@@ -141,6 +151,12 @@ header h2 {
     display: inline-block;
     background-color: rgb(42, 42, 42);
     color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.project-3:hover {
+  background-color: white;
+  color: black;
 }
 
 footer {
