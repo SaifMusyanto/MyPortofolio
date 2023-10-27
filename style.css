@@ -1,0 +1,162 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Inter", Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -22px;
+    background-color: rgb(67, 67, 67);
+}
+
+header {
+    height: 100vh;
+    text-align: center;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1588412079929-790b9f593d8e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#circularpotrait {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid #ddd;
+    margin: auto;
+    margin-top: 8%;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: 100%;
+}
+
+header h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    z-index: 1;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.about-me {
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    padding: 20px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+
+.about-me img {
+    float: left;
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-me h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.about-me p {
+    font-style: italic;
+}
+
+.project-1 {
+    max-width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+
+.project-2 {
+    max-width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+
+.project-3 {
+    max-width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(42, 42, 42);
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    margin-top: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(168, 168, 168);
+}
